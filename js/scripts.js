@@ -5,4 +5,11 @@ $(document).ready(function() {
   $("button#darkmode").click(function() {
     $("body").addClass("darkmode");
   });
+  $("#test").click(function() {
+    $("#flash").removeClass();
+    $("#flash").addClass("highlight")
+  });
+  $("#test2").click(function() {
+    $("#flash").removeClass();
+  });
 });

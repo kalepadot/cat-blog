@@ -2,3 +2,7 @@
   background-color: rgb(15, 14, 14);
   color: antiquewhite;
 }
+.highlight {
+  background-color: purple;
+  color: white;
+  border: 5px solid black;
